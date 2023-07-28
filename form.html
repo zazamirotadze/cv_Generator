@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Form</h1>
+    <h2>At first every field of the form should be filled. <br>When you end the process of entering inputs<br> "GENERATE CV" BUTTON.</h2>
+    <form method="post" action="index.php" enctype="multipart/form-data">
+    <label for="image">Picture</label>
+    <input id="image" type="file" name="image" accept="image/*" required>
+    <br>
+    <label for="name">Name</label>
+    <input id="name" name="name" type="text" placeholder="E.g. Zaza" required/>
+    <br>
+    <label for="surname">Surname</label>
+    <input id="suname" name="surname" type="text" placeholder="E.g. Mirotadze" required/>
+    <br>
+    <label for="date">Date of birth</label>
+    <input id="date" name="date" type="date"  placeholder="date" required />
+    <br>
+    <label for="relationship_status">Relationship status:</label>
+    <select name="relationship_status" id="relationship_status" required>
+        <option value="">- Please choose -</option>
+        <option value="married">Married</option>
+        <option value="single">Single</option>
+        <option value="widow">Widow</option>
+        <option value="divorced">Divorced</option>
+    </select>
+    <br>
+    <label for="address">Address</label>
+    <input id="address" name="address" type="text" placeholder="E.g. Tbilisi" required />
+    <br>
+    <label for="phone">Phone number</label>
+    <input id="phone" name="phone" type="text" placeholder="E.g. +995 559 483 423" required/>
+    <br>
+    <label for="email">Email</label>
+    <input id="email" name="email" type="email" placeholder="E.g. zaza@example.ge" required/>
+    <br>
+    <label for="languages">Languages</label>
+    <textarea id="languages" name="languages" placeholder="E.g. greek, france etc." required></textarea>
+    <br>
+    <br>
+    <label for="education">Education</label>
+    <textarea id="education" name="education" placeholder="E.g. Tsu bachelor's degree at low" required></textarea>
+    <br>
+    <br>
+    <label for="computer_skills">Computer skills</label>
+    <textarea id="computer_skills" name="computer_skills" placeholder="E.g. excel, word etc." required></textarea>
+    <br>
+    <br>
+    <label for="social_accounts">Social accounts links</label>
+    <textarea id="social_accounts" name="social_accounts" placeholder="E.g. github - https://github.com/exmaplehuman/" required></textarea>
+    <br>
+    <label for="work_experience">Work experience</label>
+    <textarea id="work_experience" name="work_experience" placeholder="E.g. engineer at tbc." required></textarea>
+    <br>
+    <button>GENERATE CV</button>
+</html>

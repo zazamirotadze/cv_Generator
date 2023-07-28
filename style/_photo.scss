@@ -1,0 +1,15 @@
+img {
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img_container{
+    width: 230px;
+    height: 230px;
+    text-align: center;
+    position: relative;
+}

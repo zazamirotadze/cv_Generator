@@ -1,0 +1,45 @@
+img {
+  max-width: 100%;
+  max-height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.img_container {
+  width: 230px;
+  height: 230px;
+  text-align: center;
+  position: relative;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Noto Sans Georgian", sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.template_body {
+  padding: 20px 100px;
+}
+
+.template_body__part-short {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 400px;
+}
+.template_body__part-short:nth-of-type(2) {
+  margin-left: 50px;
+}
+.template_body__part-short:nth-of-type(2) > div:nth-of-type(2) {
+  margin-top: 50px;
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Curriculum Vitae</h1>
+    <div class="template_body"> 
+    <div class="img_container">
+        <img src="{{ photo }}" alt="profile-photo" />
+    </div>
+    <div class="template_body__part1">
+        <div class="template_body__part-short">
+            <div>
+                <h2>Personal information</h2>
+                <p>Name and surname : {{ name }} {{ surname }}</p>
+                <p>Date of bith : {{ date }}</p>
+                <p>Relationship status : {{ relationship }}</p>
+            </div>
+            <div>
+                <h2>Contacts</h2>
+                <p>Address : {{ address }}</p>
+                <p>Telephone : {{ phone }}</p>
+                <p>email : {{ email }}</p>
+            </div> 
+        </div>
+        <div class="template_body__part-short">
+            <div>
+                <h2>Languages :</h2>
+                <p>{{ languages }}</p>
+            </div>
+            <div>
+                <h2>Education :</h2>
+                <p>{{ education }}</p>
+            </div>
+        </div>
+    </div>
+    <h2>Computer skills :</h2>
+    <p>{{ computer_skills }}</p>
+    <h2>My accounts links :</h2>
+    <p>{{ accounts }}</p>
+    <h2>Work experience :</h2>
+    <p>{{ work_experience }}</p>
+    </div>
+</body>
+</html>
