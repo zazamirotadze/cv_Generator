@@ -10,4 +10,4 @@ with the help of artificial intelligence everithing is possible. Note free hosti
 და ბადისა ამიტომ ცოტათი რთული იყო ცსს კოდის დაწერა მაგრამ ხელოვნურ ინტელექტთან ერთად ყველაფერი შესაძლებელია. შენიშვნა, უფასო საიტის
 განთავსებას რომელიც მე გამოვიყენე აქვს თავისი გამოყენების შეზღუდვები. 
 Technologies that I have used (ტექნოლოგიები რომლებიც მე გამოვიყენე)
-php, javascript, html, sass, water.css, dompdf, 000webhostapp 
+oop php, javascript, html, sass, water.css, dompdf, 000webhostapp 
